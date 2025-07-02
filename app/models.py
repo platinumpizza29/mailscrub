@@ -1,5 +1,5 @@
-from pydantic import BaseModel, EmailStr
-from typing import List, Optional
+from pydantic import BaseModel
+from typing import List
 
 class OfferRequest(BaseModel):
     sender_email: str  # Changed from EmailStr to match Go struct
